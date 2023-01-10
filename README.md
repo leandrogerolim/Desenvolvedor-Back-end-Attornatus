@@ -1,3 +1,7 @@
+### Métodos GET, POST, PUT e DELETE funcionando: 
+
+![image](https://user-images.githubusercontent.com/92825608/211450979-16a62f84-652c-43e3-b38e-c6229eb11c5b.png)
+
 # Desenvolvedor-Back-end-Attornatus
 
 
