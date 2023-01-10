@@ -20,15 +20,40 @@ public class PessoaResource {
     }
 
     @GetMapping("/pessoa/{id}")
-    public Pessoa listarPessoaId(@PathVariable(value="id") long id) {
+    public Pessoa listarPessoaId(@PathVariable(value = "id") long id) {
         return pessoaRepository.findById(id);
     }
 
     @PostMapping("/pessoa/")
     public Pessoa salvarNovaPessoa(@RequestBody Pessoa pessoa) {
-        return pessoaRepository.<Pessoa>save(pessoa);
+        return pessoaRepository.save(pessoa);
+    }
+
+    @DeleteMapping("/pessoa/{id}")
+    public String deletaNovaPessoa(@PathVariable long id) {
+        pessoaRepository.delete(listarPessoaId(id));
+        return "Pessoa selecionada foi apagada com sucesso";
+
+    }
+    @PutMapping("/pessoa/{id}")
+    public Pessoa editarPessoa(@RequestBody Pessoa pessoa) {
+
+        return pessoaRepository.save(pessoa);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

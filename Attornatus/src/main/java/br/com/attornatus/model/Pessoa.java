@@ -24,4 +24,7 @@ public class Pessoa {
     @Embedded
     private Endereco endereco;
 
+
+
+
 }
