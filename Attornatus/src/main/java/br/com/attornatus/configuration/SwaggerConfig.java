@@ -20,7 +20,7 @@ public class SwaggerConfig {
     private ApiInfo getInfo() {
         return new ApiInfoBuilder()
                 .title("Attornatus API")
-                .description("Attornatus API teste")
+                .description("Attornatus API")
                 .build();
     }
 }

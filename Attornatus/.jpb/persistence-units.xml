@@ -4,8 +4,8 @@
     <persistence-units>
       <persistence-unit name="Default">
         <packages>
-          <package value="me.dio.sacola" />
-          <package value="me.dio.sacola" />
+          <package value="Attornatus" />
+          <package value="Attornatus" />
         </packages>
       </persistence-unit>
     </persistence-units>
