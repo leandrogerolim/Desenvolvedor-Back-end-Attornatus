@@ -1,0 +1,2 @@
+INSERT INTO PESSOA (DATA, CEP, CIDADE, LOGRADOURO, NUMERO, NOME) VALUES ('11/05/1992', '791000', 'Campo Grande', 'rua 1', 2 , 'Leandro Gerolim')
+INSERT INTO PESSOA (DATA, CEP, CIDADE, LOGRADOURO, NUMERO, NOME) VALUES ('11/05/1992', '791000', 'Campo Grande', 'rua 1', 2 , 'Leandro Gerolim')

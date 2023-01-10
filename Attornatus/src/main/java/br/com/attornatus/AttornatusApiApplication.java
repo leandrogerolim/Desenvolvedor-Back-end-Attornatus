@@ -1,17 +1,13 @@
-package br.com.attornatus.Attornatus;
+package br.com.attornatus;
 
-import model.Pessoa;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AttornatusApplication {
-
+public class AttornatusApiApplication {
+// o teste é feito na main
 	public static void main(String[] args) {
-		SpringApplication.run(AttornatusApplication.class, args);
+		SpringApplication.run(AttornatusApiApplication.class, args);
 	}
-
-
-
 
 }
